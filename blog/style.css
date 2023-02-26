@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: rgb(191, 206, 219);
+}
+.kontener{
+    padding-left:5rem;
+    padding-right:5rem;
+}
+#kontenerbo{
+    background-color: white;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+.home-link{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    
+}
+.link{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.navbar img{
+    width: 70px;
+}
+
+.home-link a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+.contact-link{
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 25px;
+    margin-left: 4rem;
+}
+.contact-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.kontener2{
+    margin: 0 150px;
+    height: 600px;
+}
+.kontener2 h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.head {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 57%;
+}
+
+.image img {
+    width: 100%;
+}
+.detail {
+    width: 40%;
+}
+
+.detail-item {
+    margin-bottom: 20px;
+}
+
+ .detail-item h3,
+ .detail-item h5 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.detail-item div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.detail-item div img {
+    width: 25px;
+    height: 25px;
+    margin-right: 11px;
+}
+
+.detail-item-2 h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-tech {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 3px;
+    width: 48%;
+    align-items: center;
+}
+
+.tag-tech h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.tag-tech img {
+    width: 25px;
+    height: 25px;
+    margin-right: 11px;
+}
+
+.second-page p{
+    text-align: justify;
+}
