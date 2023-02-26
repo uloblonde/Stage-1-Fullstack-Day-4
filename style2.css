@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: rgb(191, 206, 219);
+}
+.kontener{
+    padding-left:5rem;
+    padding-right:5rem;
+}
+#kontenerbo{
+    background-color: white;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+.home-link{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    
+}
+.link{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.navbar img{
+    width: 70px;
+}
+
+.home-link a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+.contact-link{
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 25px;
+    margin-left: 4rem;
+}
+.contact-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.landingpage{
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 2px 15px;
+}
+.about-me{
+    padding: 20px;
+    width: 60%;
+}
+.about-me h1{
+    font-size: 25pt;
+}
+.about-me p{
+    text-align: justify;
+}
+.btn{
+    margin-top: 2rem;
+}
+.social-med{
+    margin-top: 3rem;
+}
+.social-med a {
+    text-decoration: none;
+    color: black;
+    font-size: 30pt;
+    margin-right: 30px;
+}
+.imager{
+    box-shadow: 0 0 5px;
+    border-radius: 10px 10px 0 0;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+}
+.imager img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px 10px 0 0 ;
+}
+.imager h5{
+    font-weight: 300;
+    padding-bottom: 10px;
+}

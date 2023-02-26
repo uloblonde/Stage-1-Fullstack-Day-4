@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cntct.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="kontener" id="kontenerbo">
+        <div class="navbar">
+            <div class="home-link">
+                <img  src="Img/brandred.png" alt="">
+                <div class="link">
+                    <a href="index.html">Home</a>
+                    <a href="add.html">My Project</a>
+                </div>
+            </div>
+            <div class="contact-link">
+                <a href="cntct.html">Contact Me</a>
+            </div>       
+        </div>
+    </div>
+    <!-- End Navbar -->
+
+
+    <!-- Form -->
+
+    <div class="formala">
+        <h1>Get In Touch</h1>
+        <form action="">
+            <div class="inputan-nama">
+                <label for="name">Name</label>
+                <input id="name" type="text">
+            </div>
+    
+            <div class="inputan-email">
+                <label for="email">Email</label>
+                <input id="email" type="text">
+            </div>
+    
+            <div class="inputan-hp">
+                <label for="phone">Phone Number</label>
+                <input id="phone" type="text">
+            </div>
+    
+            <div class="inputan-select">
+                <label for="subject">Subject</label>
+                <select id="subject">
+                    <option>Collaboration</option>
+                    <option>Discussion</option>
+                    <option>Hiring</option>
+                </select>
+            </div>
+    
+            <div class="inputan-alamat">
+                <label for="address">Address</label>
+                <Textarea id="address"></Textarea>
+            </div>
+    
+            <div>
+                <button type="button" onclick="getData()">submit</button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- End Form -->
+
+
+<script src="script.js"></script>
+</body>
+</html>
